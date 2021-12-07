@@ -12,25 +12,25 @@ import '../App.css';
 const steps = [
   {
     label: 'Juan Pablo Borrero Rivas',
-    description: 'Integrante del grupo 17 de MISIONTIC',
-    image : "https://bn1304files.storage.live.com/y4mJf4aQCAwSQ7vWy7b2w5sNciber6ceMh5Prk-JdNOJRGuhbDXsLMYpI1TUvfWep1I9WsQ2WzwxVpRic8Njn6eMMCZAP--F2MHKmadK475Gv8JVAi9xxxaYDFctw6j7E4MVpax6mLJWvynjxFfHVkq2F9HBOLbVKlY4wbGWErpxUtFItShn6YdpFE2xnaVBBtZeMdQpuFMbsNLFPnGtTwYaWQ1dva7wdB71kV5lFVuMiI?encodeFailures=1&width=472&height=630"
+    description: 'Integrante del grupo 10 de MISIONTIC, perteneciente al Development team; encargado de realizar la parte del front y la comunicacion entre el front y el back',
+    image : "https://github.com/Juan98D/E-10-28/blob/main/src/assets/imagenes/CC_1143875722_foto%20(1).jpg?raw=true"
   },
   {
     label: 'Cristian',
     description:
-      'Integrante del grupo 17 de MISIONTIC.',
-    image: 'https://bn1304files.storage.live.com/y4mQpT7xktgYWbCXBtX-fLT8Uzqq7yNXiko35hOp6vhB9eKEfNS8OzvGkIwKMBqTpqJLlRNJwEJUSFYuRKup35HEmVK-64lclRvbruWfoQSDSrZJFQ22nij39RgDaGLDrjFlqyoyjHvU-AZKYCfUzVbGNO83yq3wScibURSue2-kO00Us9hA1oL4CfrJ-jPgbGZT3SotUXYTB-SLZITi0Fv4skvx474XI3VOVW1W-kQsYo?encodeFailures=1&width=352&height=432'
+      'Integrante del grupo 10 de MISIONTIC, Scrum Master del equipo, encargado de dar apoyo a los integrantes del grupo y a realizar toda la documentacion del proyecto.',
+    image: 'https://github.com/Juan98D/E-10-28/blob/main/src/assets/imagenes/Cristian.jpeg?raw=true'
   },
   {
     label: 'Jesus',
-    description: 'Integrante del grupo 17 de MISIONTIC',
+    description: 'Integrante del grupo 10 de MISIONTIC, encargado de realizar la documentación y dar apoyo en la parte de frontend del aplicativo',
               
   },
   {
-      label: "Sebastian",
-      description:'Integrante del grupo',
-      image: ''
+    label: 'Yeison',
+    description: 'Integrante del grupo 10 de MISIONTIC, encargado de dar apoyo tanto en la parte del backend y en la documentación del proyecto'
   }
+  
 ];
 
 export default function TextMobileStepper() {

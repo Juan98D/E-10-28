@@ -8,6 +8,7 @@ import IconButton from '@mui/material/IconButton';
 import logo from '../assets/imagenes/logo_white_large.png'
 import { makeStyles } from '@material-ui/core/styles';
 //import Avatars from './Avatar';
+import '../App.css';
 
 //Estilos para el appBar
 const useStyles = makeStyles((theme) => ({
@@ -52,10 +53,9 @@ export default function Navbar() {
           <div className = {classes.grow}>
             <div className = {classes.button}> 
                 <Button color="inherit">Inicio</Button>
-                <Button color="inherit">Portafolio</Button>
-                <Button color="inherit">Equipo</Button>
-                <Button color="inherit">Nosotros</Button>
-                <Button color="inherit">Login</Button>
+                <Button color="inherit"><a href='#portafolio'>Portafolio</a></Button>
+                <Button color="inherit"><a href = "#equipo">Equipo</a></Button>
+                <Button color="inherit">Noticias</Button>
             </div> 
           </div>
         </Toolbar>

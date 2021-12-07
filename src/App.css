@@ -7,9 +7,9 @@
     
 }
 
-h1 {
+.titulos{
     text-align: center;
-    margin-bottom: 90px;
+    margin: 90px;
 }
 
 .persona{
@@ -21,4 +21,26 @@ h1 {
 .imagenP {
     height: 300px;
     padding: 0px;
+}
+
+.blog{
+    margin-left: 30%;
+}
+
+#footer{
+    background: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    display: inline;
+    padding-left: 12px;
+}
+
+#conte-footer{
+    padding-top: 0.7%;
 }
